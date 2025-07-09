@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Merriweather', serif;
+	/*font-family: 'Coiny', cursive;*/
+	/*font-family: 'Montserrat', sans-serif;*/
+}
+
+#port-jumbo {
+	border: 8px solid green;
+	border-radius: 10px;
+	width: 60%;
+	padding: 8em 4em;
+}
+
+#jumbo-div {
+	padding-top: 10%:
+	height: 100vh;
+	background-image: url(../images/tree.jpeg);
+	/*background-color: #333;*/ /*off black*/
+	border-radius: 0; /*to remove jumbotron rounded corners*/
+}
+
+.navbar {
+	background-color: black;
+}
+
+.jumbotron h1 {
+	color: #f2f2f2;
+}
+
+.btn a {
+	text-decoration: none;
+	color: #f2f2f2;
+}
+
+#about {
+	background-color: lightgray!important;
+}
+
+#get {
+	background-color: lightgray;
+}
+
+#welcometext,
+#fullstack,
+#learn {
+	opacity: 1.0;
+}
+/*
+#name {
+	background-image: url(../images/r.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    border-radius: 0;*/ /*remove jumbo's rounded corner*/
+/*    text-align: center;
+    opacity: 0.2;
+}
+*/
+#logo {
+	margin-left: 25%;
+	margin-right: 5%;
+}
+
+#welcome {
+    background-image: url(../images/sealone.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    scroll-behavior: none;
+    height: 100vh;
+    padding-top: 20%;
+    border-radius: 0; /*remove jumbo's rounded corner*/
+    text-align: center;
+    /*opacity: 1.0;*/
+}
+
+#icon {
+	color: #d30c76;
+}
+
+#send {
+	background-color: #fc6cbe;
+}
+
+.view {
+	background-color: #fc6cbe;
+}
+
+.view:hover {
+	background-color: black;
+}
+
+#send:hover {
+	background-color: black;
+}
+
+/*.like {
+	background-color: #fc6cbe;
+}
+*/
+
+#welcometext {
+	letter-spacing: 8px;
+	font-size: 50px;
+	margin-top: 0px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#R {
+	font-size: 60px;
+}
+
+#I {
+	font-size: 60px;
+}
+
+#fullstack {
+	color: white;
+	letter-spacing: 8px;
+	margin-bottom: 8%;
+	font-size: 20px;
+}
+
+#port {
+	font-size: 30px;
+	/*font-family: 'Italianno', cursive;*/
+	font-family: 'Acme', sans-serif;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: center;
+}
+
+#img {
+	border-radius: 400px;
+}
+
+#devicon {
+	width: 100px;
+	height: 100px;
+}
+
+#download {
+	background-color: #fc6cbe;
+}
+#download:hover {
+	background-color: black;
+}
+
+#name,
+#email {
+	
+}
+
+#caps:hover #cap{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile Style*/
+@media only screen and (max-width: 400px) {
+	#welcome {
+		/*background-color: gray;*/ /**/
+		width: 100%;	
+	}
+
+	#welcometext {
+		width: 100%;
+		letter-spacing: 0px;
+		font-size: 30px;
+		margin-top: 0px;
+		color: white;
+		/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	}
+
+	#R {
+		font-size: 31px;
+	}
+
+	#I {
+		font-size: 31px;
+	}
+	#fullstack {
+		color: white;
+		letter-spacing: 6px;
+		margin-bottom: 8%;
+		font-size: 10px;
+		color: black;
+	}
+	#logo {
+		margin-left: 2%;
+		margin-right: 5%;
+	}
+
+} /*END MOBILE*/
+
+/*Table Style*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	body {
+		background-color: black; /**/
+	}
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+	body {
+		background-color: white; /**/
+	}
