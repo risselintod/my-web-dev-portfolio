@@ -171,9 +171,6 @@
 
 
 
-
-
-
 /*Mobile Style*/
 @media only screen and (max-width: 400px) {
 	#welcome {
@@ -216,6 +213,7 @@
 	body {
 		background-color: white; /**/
 	}
+	
 }
 
 /*Desktop Styles*/
