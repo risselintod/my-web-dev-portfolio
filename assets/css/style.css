@@ -174,22 +174,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Mobile Style*/
 @media only screen and (max-width: 400px) {
 	#welcome {
@@ -207,11 +191,11 @@
 	}
 
 	#R {
-		font-size: 31px;
+		font-size: 32px;
 	}
 
 	#I {
-		font-size: 31px;
+		font-size: 32px;
 	}
 	#fullstack {
 		color: white;
@@ -230,7 +214,7 @@
 /*Table Style*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 	body {
-		background-color: black; /**/
+		background-color: white; /**/
 	}
 }
 
